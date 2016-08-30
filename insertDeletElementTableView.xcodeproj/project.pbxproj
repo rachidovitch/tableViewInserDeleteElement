@@ -14,6 +14,8 @@
 		0409C0891D75C33700445098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0409C0871D75C33700445098 /* LaunchScreen.storyboard */; };
 		0409C0941D75C33700445098 /* insertDeletElementTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409C0931D75C33700445098 /* insertDeletElementTableViewTests.swift */; };
 		0409C09F1D75C33700445098 /* insertDeletElementTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409C09E1D75C33700445098 /* insertDeletElementTableViewUITests.swift */; };
+		0409C0AD1D75C41700445098 /* todoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409C0AC1D75C41700445098 /* todoItems.swift */; };
+		0409C0B11D75C6A300445098 /* addTodoItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409C0B01D75C6A300445098 /* addTodoItemsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0409C09A1D75C33700445098 /* insertDeletElementTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = insertDeletElementTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0409C09E1D75C33700445098 /* insertDeletElementTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insertDeletElementTableViewUITests.swift; sourceTree = "<group>"; };
 		0409C0A01D75C33700445098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0409C0AC1D75C41700445098 /* todoItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = todoItems.swift; sourceTree = "<group>"; };
+		0409C0B01D75C6A300445098 /* addTodoItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addTodoItemsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				0409C07E1D75C33700445098 /* AppDelegate.swift */,
 				0409C0801D75C33700445098 /* ViewController.swift */,
+				0409C0AC1D75C41700445098 /* todoItems.swift */,
 				0409C0821D75C33700445098 /* Main.storyboard */,
+				0409C0B01D75C6A300445098 /* addTodoItemsViewController.swift */,
 				0409C0851D75C33700445098 /* Assets.xcassets */,
 				0409C0871D75C33700445098 /* LaunchScreen.storyboard */,
 				0409C08A1D75C33700445098 /* Info.plist */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0409C0811D75C33700445098 /* ViewController.swift in Sources */,
+				0409C0AD1D75C41700445098 /* todoItems.swift in Sources */,
+				0409C0B11D75C6A300445098 /* addTodoItemsViewController.swift in Sources */,
 				0409C07F1D75C33700445098 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
